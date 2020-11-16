@@ -1,4 +1,9 @@
 #problem 1 chapter 3
+
+Jason: I believe there is a bug in this program,
+       what if the largest number is first input? or second input?
+       Is the output as expected in both cases.
+
 a= float(input("enter in the first number: "))
 b= float(input("enter in the second number: "))
 numbers= []
@@ -21,6 +26,11 @@ for i in range(a,b+1):
 print("your total is: ", sum)
 
 #problem 3 chapter 3
+
+Jason: You are producing multiple input() calls inside a for-loop,
+       while workable, problem requires only one input. Then you
+       have to split that input string for further processing.
+
 list1 = [] 
 for i in range(10): 
     num = int(input("Enter numbers: ")) 
@@ -39,6 +49,9 @@ for i in range(a,b+1,c):
     print(i)
     
 #problem 5 chapter 3
+
+Jason: You should not be installing external libraries for these problems,
+       try to complete without Numpy.
 
 for i in range(1,50):
     list1 = i
