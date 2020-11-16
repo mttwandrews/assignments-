@@ -1,0 +1,41 @@
+#problem 1 chaper 2######
+radius = float(input(" enter the radius of a circle:"))
+area = 3.14159*radius**2
+print(area)
+   
+# problem 2 chapter 2#######
+int1= float(input("input first number "))
+int2 = float(input("input second number "))
+solution = int1 * int2
+print(solution)
+
+#problem 3 on chapter 2#######
+h = input("")
+h3= h * 3
+print(h3)
+
+#problem 4 on chapter 2########
+b = float(input("imput first number " ))
+e = float(input("imput second number " ))
+solution = b ** e
+print(solution)
+
+#problem 5 chapter 2######
+statement = str(input("input a statement: "))
+
+print( "the length of the statement is: ", len(statement))
+statement.replace("e","E")
+
+if statement.endswith("."):
+    print("statement ends with a .")
+else:
+    print("statement does not end with a .")
+if statement.isalpha():
+    print("the user inputed all alphabetic characters")
+else:
+    print("the user inputed something other then a alphabetic character")
+if (statement.find('x') != -1):
+    print("statement has an x")
+else:
+    print("statement does not contain an x")
+statement.replace("e","E")
