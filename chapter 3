@@ -1,0 +1,46 @@
+#problem 1 chapter 3
+a= float(input("enter in the first number: "))
+b= float(input("enter in the second number: "))
+numbers= []
+numbers.append(a)
+numbers.append(b)
+
+for i in numbers:
+    if i == max(numbers):
+        print("these are the same numbers")
+    else:
+        print("Largest number is:", max(numbers))
+        
+#problem 2 chapter 3
+a= int(input("enter in the first number: "))
+b= int(input("enter in the second number: "))
+
+sum = 0
+for i in range(a,b+1):
+    sum = sum + i
+print("your total is: ", sum)
+
+#problem 3 chapter 3
+list1 = [] 
+for i in range(10): 
+    num = int(input("Enter numbers: ")) 
+    list1.append(num) 
+list2 = []    
+for i in list1:
+    if i > 0:
+        list2.append(i)
+print(list2)
+
+#problem 4 chapter 3
+a = int(input("enter in the low number: "))
+b = int(input("enter in the high number: "))
+c = int(input("enter in the step value: "))
+for i in range(a,b+1,c):
+    print(i)
+    
+#problem 5 chapter 3
+
+for i in range(1,50):
+    list1 = i
+    print(list1)
+# i think im going to need to import numpy from what i gathered on the internet but everytime i do the kernal dies
