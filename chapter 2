@@ -10,6 +10,9 @@ solution = int1 * int2
 print(solution)
 
 #problem 3 on chapter 2#######
+
+Jason: your program should accept two inputs, review the problem statement
+
 h = input("")
 h3= h * 3
 print(h3)
@@ -21,6 +24,11 @@ solution = b ** e
 print(solution)
 
 #problem 5 chapter 2######
+
+Jason: 1) input() returns a 'str' type, so no need to cast the statement
+       2) I don't see a check for the newline character
+       3) Redundant calls with statement.replace("e","E") at beginning and end
+
 statement = str(input("input a statement: "))
 
 print( "the length of the statement is: ", len(statement))
